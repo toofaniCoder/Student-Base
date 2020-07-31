@@ -1,0 +1,41 @@
+.navbar {
+  box-shadow: 0px 7px 40px rgba(#000, 0.1);
+}
+.btn-profile {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 100px;
+}
+.btn-edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 11111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f48c06;
+  color: #fff;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
